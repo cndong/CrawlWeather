@@ -28,7 +28,7 @@
 	    //设置$switch的函数，如果$switch为0则将其设置成1，否则将其设置成0
 	    function setLock()
 	    {
-	        if($this->switch==0)				//如果属性switch等于0，则将其设置为1
+	        if($this->switch==0)	//如果属性switch等于0，则将其设置为1
 	        	$this->switch = 1;
 	        else							//如果属性switch等于1，则将其设置为0
 	        	$this->switch = 0;
